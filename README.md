@@ -6,7 +6,7 @@ selenium是个好东西，但是我用起来总觉得很奇怪，感觉作者少
 
 import myRequest
 
-#基础信息，_base是selenium对象,start后得到#
+#基础信息，_base是selenium对象,start后得到#由于python的假私有性，所以大家可以用_base直接调取selenium的方法
 
 my = myRequest.myRequest()
 
